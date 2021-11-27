@@ -1,0 +1,67 @@
+.temperature {
+  background-image: url("/src/landscape.png");
+  background-size: 130%;
+  font-size: 30px;
+  color: rgb(179, 1, 4);
+}
+
+.windSpeed {
+  background-image: url("/src/landscape.png");
+  background-size: 130%;
+  font-size: 30px;
+  color: rgb(179, 1, 4);
+}
+
+.windDirection {
+  background-image: url("/src/landscape.png");
+  background-size: 130%;
+  font-size: 20px;
+  color: rgb(179, 1, 4);
+}
+.weatherCode {
+  background-image: url("/src/landscape.png");
+  background-size: 130%;
+  font-size: 30px;
+  color: rgb(179, 1, 4);
+}
+.image {
+  width: 100%;
+}
+.NArrow {
+  width: 100%;
+}
+
+.NEArrow {
+  width: 100%;
+  transform: rotate(45deg);
+}
+
+.EArrow {
+  width: 100%;
+  transform: rotate(90deg);
+}
+
+.SEArrow {
+  width: 100%;
+  transform: rotate(135deg);
+}
+
+.SArrow {
+  width: 100%;
+  transform: rotate(180deg);
+}
+
+.SWArrow {
+  width: 100%;
+  transform: rotate(225deg);
+}
+
+.WArrow {
+  width: 100%;
+  transform: rotate(270deg);
+}
+
+.NWArrow {
+  width: 100%;
+  transform: rotate(315deg);
+}
