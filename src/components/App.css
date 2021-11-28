@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: url("/src/Paper.jpg");
+  background-repeat: repeat-y repeat-x;
 }
 
 .App-logo {

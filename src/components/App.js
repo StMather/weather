@@ -16,7 +16,7 @@ class App extends Component {
 render(){
   return (
     <div className="App">
-      <h1 className="App-header">Weather</h1>
+      <h1 className="App-header">Moses Lake Weather</h1>
       <div className="grid">
         <WeatherNow location={this.state.mosesLake}/>
       </div>
