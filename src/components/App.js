@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './App.css';
 import WeatherNow from './Weather/WeatherNow';
+import SevenDay from './Weather/SevenDay';
 
 class App extends Component {
  constructor(props){
@@ -20,6 +21,7 @@ render(){
       <div className="grid">
         <WeatherNow location={this.state.mosesLake}/>
       </div>
+      <SevenDay location={this.state.mosesLake}/>
     </div>
   );
 }
