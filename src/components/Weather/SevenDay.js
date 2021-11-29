@@ -25,7 +25,15 @@ class SevenDay extends Component {
       })
   }
 
-  
+  TinyIcon = (props) =>{
+    if(props.minTemp <= 32)
+    {
+        return <img src="/Images/ThermometerCold.png" alt="Cold thermometer"/>;
+    }
+    else{
+        return <img src="/Images/ThermometerHot.png" alt="Hot thermometer"/>;
+    }
+  }
 
   render() {
     return (
@@ -45,7 +53,7 @@ class SevenDay extends Component {
             {this.state.dailyTemps.map(temp => 
                 <tr>
                   <td>{temp.time}</td>
-                  <td><img src="https://via.placeholder.com/25x25" alt="{temp.time} image" /></td>
+                  <td>{this.TinyIcon(temp)}</td>
                   <td>{temp.minTemp}</td>
                   <td>{temp.maxTemp}</td>
                 </tr>)}
