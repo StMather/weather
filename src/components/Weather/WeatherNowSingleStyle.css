@@ -65,3 +65,42 @@
   width: 100%;
   transform: rotate(315deg);
 }
+
+.SevenDay{
+  background-image: url("/src/landscape.png");
+  background-size: 130%;
+  color: rgb(19, 1, 179);
+
+}
+
+table.tbl th, table.tbl td {
+
+  padding: 3px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #468df7 #ccc;
+
+}
+
+table.tbl td {
+
+text-align: right;
+
+}
+
+table.tbl thead th {
+padding: 8px;
+font-size: 25px;
+
+}
+
+table.tbl th, table.tbl td {
+  padding: 3px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #468df7 ;
+}
+
+table.tbl tr{
+	font-family: Calibri, Myriad;
+}

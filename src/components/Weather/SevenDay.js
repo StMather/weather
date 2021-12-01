@@ -38,20 +38,20 @@ class SevenDay extends Component {
   render() {
     return (
       <div className="SevenDay">
-        <table>
+        <table className="tbl">
           <thead>
             <tr>
-              <th>Date</th>
-              <th>Icon</th>
-              <th>Min Temp</th>
-              <th>Max Temp</th>
+              <th id="thDay">Date</th>
+              <th id="thIcon">Icon</th>
+              <th id="thMin">Min Temp </th>
+              <th id="thMax">Max Temp</th>
             </tr>
           </thead>
           
   
           <tbody>
             {this.state.dailyTemps.map(temp => 
-                <tr>
+                <tr class="trData">
                   <td>{temp.time}</td>
                   <td>{this.TinyIcon(temp)}</td>
                   <td>{temp.minTemp}</td>
